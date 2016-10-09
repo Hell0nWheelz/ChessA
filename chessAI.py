@@ -112,3 +112,39 @@ def whiteRookAtk(board, wr, bk):
 	y = abs(chess.file_index(list(wr)[0]) - chess.file_index(list(bk)[0]))
 	return -min(x,y)
 	return 0
+
+def kingDistance(board, wk, bk):
+	x = abs(chess.rank_index(list(wk)[0]) - chess.rank_index(list(wk)[0]))
+	y = abs(chess.rank_index(list(bk)[0]) - chess.rank_index(list(bk)[0]))
+	xSquared = math.pow(x, 2)
+	ySquared = math.pow(y, 2)
+	kingMath = xSquared + ySquared
+	distance = math.sqrt(kingMath)
+	floorDistance = math.floor(distance)
+	
+	return floorDistance
+
+def kingDistanceStrategy 
+	
+	if floorDistance = 10
+		score += 0
+	if floorDistance = 9
+		score += 1
+	if floorDistance = 8
+		score += 2
+	if floorDistance = 7
+		score += 3
+	if floorDistance = 6
+		score += 4
+	if floorDistance = 5
+		score += 5
+	if floorDistance = 4
+		score += 6
+	if floorDistance = 3
+		score += 7
+	if floorDistance = 2
+		score += 8
+	if floorDistance = 1
+		score += 9
+
+	return score
