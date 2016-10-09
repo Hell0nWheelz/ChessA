@@ -124,7 +124,7 @@ def kingDistance(board, wk, bk):
 	
 	return floorDistance
 
-def kingDistanceStrategy 
+def kingDistanceStrategy(floorDistance)
 	
 	if floorDistance = 10
 		score += 0
